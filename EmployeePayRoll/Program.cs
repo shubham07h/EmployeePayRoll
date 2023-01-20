@@ -10,6 +10,7 @@ namespace EmployeePayroll
 
                 EmployeeRepository employee = new EmployeeRepository();
                 employee.CreateDatabase();
+                employee.CreateTable();
             }
 
         }
